@@ -11,6 +11,12 @@ public class TestPersonne {
 
         Personne issa = new Personne("ennasyry","issam",a2);
 
+        alae.modifierNom("Naciri");
+        alae.modifierPrenom("aladin");
+        alae.modifierAdresse(a2);
+
+
+
 
 
     }
