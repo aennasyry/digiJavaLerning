@@ -16,4 +16,12 @@ public class Compte {
     public int getSolde() {
         return solde;
     }
+
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "numCompte=" + numCompte +
+                ", solde=" + solde +
+                '}';
+    }
 }
